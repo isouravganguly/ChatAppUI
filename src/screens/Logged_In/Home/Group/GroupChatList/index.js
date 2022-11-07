@@ -5,7 +5,7 @@ import React from 'react'
 // --User defined Components
 import Card from '../../../../../components/Card';
 
-DATAs = [
+const DATA = [
     {
       id: 'c1b1-46c2-aed5',
       name: 'One World',
@@ -33,7 +33,7 @@ const GroupChatList = ({navigation}) => {
   return (
     <SafeAreaView>
       <FlatList
-        data={DATAs}
+        data={DATA}
         renderItem={renderItem}
         keyExtractor={item => item.id}
       />

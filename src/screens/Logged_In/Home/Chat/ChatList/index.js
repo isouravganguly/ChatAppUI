@@ -2,7 +2,7 @@ import { SafeAreaView, FlatList } from 'react-native';
 import React from 'react'
 import Card from '../../../../../components/Card';
 
-DATA = [
+const DATA = [
     {
       id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
       name: 'Sneha',
